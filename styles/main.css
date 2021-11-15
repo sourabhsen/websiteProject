@@ -1941,8 +1941,10 @@ html[dir="rtl"] .has-ultimate-tooltip .ultimate-tooltip-arrow {
 .circle-cursor.circle-cursor-inner {
   height: 6px;
   width: 6px;
-  -webkit-transition: top 0.02s ease-out, left 0.02s ease-out, height 0.2s ease-in-out, width 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  transition: top 0.02s ease-out, left 0.02s ease-out, height 0.2s ease-in-out, width 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: top 0.02s ease-out, left 0.02s ease-out, height 0.2s ease-in-out,
+ width 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: top 0.02s ease-out, left 0.02s ease-out, height 0.2s ease-in-out,
+ width 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 .light_theme .circle-cursor.circle-cursor-inner {
@@ -3548,12 +3550,12 @@ html[dir="rtl"] .notifications-container .notify-leave-active {
     right: 50%;
   }
   html[dir="ltr"] .hero-section .hero-text {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translate(-50%, 120%);
+            transform: translate(-50%, 120%);
   }
   html[dir="rtl"] .hero-section .hero-text {
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    -webkit-transform: translateX(50%, 120%);
+            transform: translateX(50%, 120%);
   }
 }
 

@@ -5,7 +5,7 @@ const app = Vue.createApp({
   data() {
     return {
       // the date my career started (change to yours)
-      careerStartDate: 2009,
+      careerStartDate: 2012,
 
       // the date copyright started (change to yours)
       copyrightStartDate: 2021,
@@ -65,144 +65,141 @@ const app = Vue.createApp({
       // list of skills items to loop through it
       skillsItems: [
         {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/aem.png',
+          title: 'AEM'
+        },
+        {
+          imgUrl: 'assets/images/skills/html5.png',
           title: 'HTML5'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/css3.png',
           title: 'CSS3'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/javascript.png',
           title: 'JavaScript'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/typescript.png',
           title: 'TypeScript'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/jquery.png',
           title: 'jQuery'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/bootstrap.png',
           title: 'Bootstrap'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/angular.png',
           title: 'Angular'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/react.png',
           title: 'React'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/vue.png',
           title: 'Vue'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/firebase.png',
           title: 'Firebase'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'PugJS'
+          imgUrl: 'assets/images/skills/node.svg',
+          title: 'Node js'
+        },{
+          imgUrl: 'assets/images/skills/mongo.svg',
+          title: 'Mongo DB'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/sass.png',
           title: 'SASS'
+        },
+        {
+          imgUrl: 'assets/images/skills/web-accessiblity.jpeg',
+          title: 'Web Accessiblity'
         }
       ],
 
       // list of tools items to loop through it
       toolsItems: [
         {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/ajax.png',
           title: 'Ajax'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/gulp.png',
           title: 'Gulp'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/webpack.png',
           title: 'Webpack'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/git.png',
           title: 'Git (Github)'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/npm.png',
           title: 'Npm'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/command.png',
           title: 'Command Line'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/trello.png',
           title: 'Trello'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'ClickUp'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
+        },  {
+          imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/photoshop.png',
           title: 'Photoshop'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Adobe XD'
-        }
+        },
       ],
 
       // list of experience items to loop through it
       experienceItems: [
         {
-          date: '2009',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
+          date: '2012',
+          companyName: { en: 'Electronic Arts', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Software Developer', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Monitored technical aspects of the delivery for projects.',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
-          date: '2011',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
+          date: '2012',
+          companyName: { en: 'TechAspect Solutions Pvt Ltd.', ar: 'شركة فيسبوك' },
+          jobTitle: { en: 'UI Developer', ar: 'مطوّر الويب المتكامل' },
           desc: {
             en: 'Collaborate with creative and development teams on the execution of ideas.',
             ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2013',
-          companyName: { en: 'Envato Inc.', ar: 'شركة انفاتو' },
-          jobTitle: { en: 'UI/UX Developer', ar: 'مطور UI/UX' },
-          desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
           }
         }, {
           date: '2015',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'RealPage Inc.', ar: 'شركة انفاتو' },
+          jobTitle: { en: 'Senior UI/UX Developer', ar: 'مطور UI/UX' },
+          desc: {
+            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript. Collaborate with creative and development teams.',
+            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
+          }
+        }, {
+          date: '2018',
+          companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Principal Front-End Developer', ar: 'مطور الواجهة الأمامية' },
           desc: {
             en: 'Monitored technical aspects of the front-end delivery for projects.',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        }, {
-          date: '2017',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
-          desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
+        },{
           date: '2019',
-          companyName: { en: 'Google Inc.', ar: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', ar: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Associate Front-End Developer Lead', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Monitored Every technical aspects of the front-end delivery for projects.',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        }, {
+        },{
           date: '2021',
-          companyName: { en: 'Facebook Inc.', ar: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', ar: 'مطوّر الويب المتكامل' },
+          companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
+          jobTitle: { en: 'Technical Front-End Developer Lead', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            en: 'Monitored Every technical aspects of the front-end delivery for projects.',
+            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
-        }, {}, {}
+        },   {}, {}
       ],
 
       // filter type for items in portfolio section
