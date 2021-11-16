@@ -208,44 +208,72 @@ const app = Vue.createApp({
       // list of portfolio items to loop through it
       allPortfolioItems: [
         {
+          id: 1,
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x390',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          imgUrl: 'assets/images/portfolio/portfolio-1.png',
+          title: { en: 'Lorem Ipsum Dolor 1', ar: 'هنا عنوان المشروع 1' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x370',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
+          imgUrl: 'assets/images/portfolio/portfolio-2.png',
+          title: { en: 'Apollo Education', ar: 'هنا عنوان المشروع' },
+          desc: { en: 'April 2014', ar: 'April 2014' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x550',
+          imgUrl: 'assets/images/portfolio/portfolio-3.png',
           title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
           desc: { en: 'April 2021', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x270',
+          imgUrl: 'assets/images/portfolio/portfolio-4.png',
           title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
           desc: { en: 'April 2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x290',
+          imgUrl: 'assets/images/portfolio/portfolio-5.png',
           title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
           desc: { en: 'April 2021', ar: 'أبريل 2021' },
           category: { slug: 'angular', name: 'Angular' }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x330',
+          imgUrl: 'assets/images/portfolio/portfolio-6.png',
           title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
           desc: { en: 'April 2021', ar: 'أبريل 2021' },
           category: { slug: 'vue', name: 'Vue' }
         }, {
           url: '#',
-          imgUrl: 'https://via.placeholder.com/420x600',
+          imgUrl: 'assets/images/portfolio/portfolio-1.png',
           title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
           desc: { en: 'April 2021', ar: 'أبريل 2021' },
           category: { slug: 'html', name: 'HTML' }
@@ -261,28 +289,28 @@ const app = Vue.createApp({
       // list of testimonials items to loop through it
       testimonialsItems: [
         {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C5103AQFnKzDfgo66DQ/profile-displayphoto-shrink_100_100/0/1576910367176?e=1642636800&v=beta&t=wVQ5GiN_Dj7jQurhck1pJ5nUS7RvPt3CY9h4OTyFczc',
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Sourabh is a very enthusiastic person as well as a technical guy at his best. He is very confident, self motivated and knowledgeable in his area of work. He is also fun to work with and a good team player. I wish him all the best in his endeavors.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
-          quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
+          quoteAuthor: { en: 'Rakesh Jha', ar: 'جابر العواني' },
+          jobTitle: { en: 'Minimalist | Human | Software & Technology', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQElA7Brr7Yszg/profile-displayphoto-shrink_100_100/0/1598817545591?e=1642636800&v=beta&t=liK0isa7LDqwNZEo761D_JrgP0hVXfLlKW4_EbWITYI',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Sourabh is a great project partner, I really enjoyed as worked with him.. This is very timely as I am about to write my first recommendation for a colleague. Sourabh is extremely enthusiastic about his work which is infectious. I certainly would recommend him for any helps in projects or discussions.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
-          quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
+          quoteAuthor: { en: 'Sumit Munot', ar: 'حسون القلال' },
+          jobTitle: { en: 'Delivery Manager at NeoSOFT Technologies', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4D03AQHnParEJsdyFw/profile-displayphoto-shrink_100_100/0/1516962773696?e=1642636800&v=beta&t=804R_ieJ7PR-73wgv3KlqW5P_Cwtu_iVz5HLtdeTRAw',
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Sourabh is very good team player and hard worker. I am very be comfortable while working with him.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
-          quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
+          quoteAuthor: { en: 'Narsimlu Katam', ar: 'مصطفى الخليفي' },
           jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
         }, {
           imgUrl: 'https://via.placeholder.com/200',
