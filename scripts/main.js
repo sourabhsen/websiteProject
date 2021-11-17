@@ -150,6 +150,14 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/photoshop.png',
           title: 'Photoshop'
         },
+        {
+          imgUrl: 'assets/images/skills/deque.svg',
+          title: 'Deque web Accessiblity'
+        },
+        {
+          imgUrl: 'assets/images/skills/lighthouse.svg',
+          title: 'Light House'
+        }
       ],
 
       // list of experience items to loop through it
@@ -224,24 +232,24 @@ const app = Vue.createApp({
           tools: ['HTML', 'React Js', 'AEM Contexthub', 'AEM', 'CSS', 'SCSS', 'JavaScript', 'Webpack', 'deque'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/brain.jpeg',
+              caption: { en: 'Brain Health', ar: 'تسمية توضيحية 5' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/brain2.png',
+              caption: { en: 'Brain Assessment', ar: 'تسمية توضيحية 4' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/brain3.jpeg',
+              caption: { en: 'Brain related Articles', ar: 'تسمية توضيحية 3' }
             },
             img4: {
               url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              caption: { en: 'Brain Activities', ar: 'تسمية توضيحية 2' }
             },
             img5: {
               url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              caption: { en: 'Brain Games', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
@@ -258,25 +266,26 @@ const app = Vue.createApp({
           tools: ['HTML', 'React', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs', 'MongoDB'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/travel.jpeg',
+              caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 5' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/travel1.jpeg',
+              caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 4' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/travel2.png',
+              caption: { en: 'Travel', ar: 'تسمية توضيحية 3' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'travel advisors', ar: 'تسمية توضيحية 2' }
             },
             img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-            }
+                url: 'assets/images/single-portfolio/travel4.png',
+                caption: { en: 'vacation rentals', ar: 'تسمية توضيحية 2' }
+              },
+        
           }
         }, {
           id: 3,
@@ -292,24 +301,24 @@ const app = Vue.createApp({
           tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/leasestar.jpeg',
+              caption: { en: 'Generate Revenue', ar: 'تسمية توضيحية 5' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/leasestar1.jpeg',
+              caption: { en: 'Marketing Data', ar: 'تسمية توضيحية 4' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/leasestar2.jpeg',
+              caption: { en: 'Attractive Marketing Dashboard', ar: 'تسمية توضيحية 3' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              url: 'assets/images/single-portfolio/leasestar3.jpeg',
+              caption: { en: 'Generate More Leads', ar: 'تسمية توضيحية 2' }
             },
             img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              url: 'assets/images/single-portfolio/leasestar4.jpeg',
+              caption: { en: 'Lead Generations', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
@@ -326,24 +335,20 @@ const app = Vue.createApp({
           tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/apollo1.jpeg',
+              caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/apollo2.jpeg',
+              caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/apollo3.jpeg',
+              caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              url: 'assets/images/single-portfolio/apollo4.png',
+              caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
@@ -360,24 +365,20 @@ const app = Vue.createApp({
           tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'AEM'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/apollo1.jpeg',
+              caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/apollo2.jpeg',
+              caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/apollo3.jpeg',
+              caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              url: 'assets/images/single-portfolio/apollo4.png',
+              caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
@@ -394,24 +395,24 @@ const app = Vue.createApp({
           tools: ['HTML', 'Perl', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'TeamSite'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/paychex1.png',
+              caption: { en: 'HR Services', ar: 'تسمية توضيحية 5' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/paychex2.jpeg',
+              caption: { en: 'Partner Solutions', ar: 'تسمية توضيحية 4' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/paychex3.jpeg',
+              caption: { en: 'Business Solutions', ar: 'تسمية توضيحية 3' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              url: 'assets/images/single-portfolio/paychex4.jpeg',
+              caption: { en: 'HR Process', ar: 'تسمية توضيحية 2' }
             },
             img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              url: 'assets/images/single-portfolio/paychex5.jpg',
+              caption: { en: 'HR Solutions', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
@@ -428,24 +429,24 @@ const app = Vue.createApp({
           tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX'],
           screenshots: {
             img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              url: 'assets/images/single-portfolio/wedding1.jpeg',
+              caption: { en: 'Wedding Events Services', ar: 'تسمية توضيحية 5' }
             },
             img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              url: 'assets/images/single-portfolio/wedding.jpeg',
+              caption: { en: 'Bridal/Groom Wear', ar: 'تسمية توضيحية 4' }
             },
             img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              url: 'assets/images/single-portfolio/wedding2.jpeg',
+              caption: { en: 'Photographers', ar: 'تسمية توضيحية 3' }
             },
             img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              url: 'assets/images/single-portfolio/wedding3.png',
+              caption: { en: 'Invitation Cards', ar: 'تسمية توضيحية 2' }
             },
             img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              url: 'assets/images/single-portfolio/wedding4.png',
+              caption: { en: 'Catering Services', ar: 'تسمية توضيحية 1' }
             }
           }
         }, {
