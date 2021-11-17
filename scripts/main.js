@@ -1,9 +1,12 @@
 // -------------------------------------
 // vue app
 // -------------------------------------
+
+
 const app = Vue.createApp({
   data() {
     return {
+    
       // the date my career started (change to yours)
       careerStartDate: 2012,
 
@@ -156,15 +159,15 @@ const app = Vue.createApp({
           companyName: { en: 'Electronic Arts', ar: 'شركة جوجل' },
           jobTitle: { en: 'Software Developer', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the delivery for projects.',
+            en: `Develop small modules of mobile games, Support bug fixes, and performance issues, Collect requirements, and technical analyze the task before implementation and estimate the efforts and Design, build and maintain efficient, reusable, and reliable code.`,
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
-          date: '2012',
+          date: '2013',
           companyName: { en: 'TechAspect Solutions Pvt Ltd.', ar: 'شركة فيسبوك' },
           jobTitle: { en: 'UI Developer', ar: 'مطوّر الويب المتكامل' },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
+            en: `Collect requirements, and technical analysis of the task before implementation and estimate the efforts. To do code review and to ensure we deliver the right quality. Actively participate in Agile methodology practices, and Resolve the Bugs in the short turn- around time, Develop, customize mobile/UI applications using Angular Js, AEM, HTML 5, etc, Design, build and maintain efficiency, reusable, and reliable code. Developed tools like Resume Builder, job search, Cover letter, interview preparation`,
             ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
           }
         }, {
@@ -172,7 +175,7 @@ const app = Vue.createApp({
           companyName: { en: 'RealPage Inc.', ar: 'شركة انفاتو' },
           jobTitle: { en: 'Senior UI/UX Developer', ar: 'مطور UI/UX' },
           desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript. Collaborate with creative and development teams.',
+            en: `Developed varieties of tools for property managers enrolled with the Realpage product 'lease star', wherein they can plan their property, property map, floorplan, etc. Developing the leasestar product on Angular Platform, Got stakeholder appreciation on rendering exemplary performances towards module, development independently which involved high rich UI technologies. Develop, customize mobile/UI applications using Angular Js, HTML 5 etc,Design , build and maintain efficient, reusable and reliable code.`,
             ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
           }
         }, {
@@ -180,7 +183,7 @@ const app = Vue.createApp({
           companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
           jobTitle: { en: 'Principal Front-End Developer', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: `Develop, customize mobile/UI applications using React Js, Redux, AEM, HTML 5, etc, Build pixel-perfect UIs across mobile and web platforms using ReactJS Design, Responsible for delivery of assigned module/ components /phases of a project responsible to work very closely with key business & data analysts and technology teams Leading a team of 6 developers in a sprint-based model for task management Provide technical oversight to onshore and offshore design and development effort`,
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },{
@@ -188,7 +191,7 @@ const app = Vue.createApp({
           companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
           jobTitle: { en: 'Associate Front-End Developer Lead', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored Every technical aspects of the front-end delivery for projects.',
+            en: `Develop, customize mobile/UI applications using React Js, Redux, AEM, HTML 5, etc, Build pixel-perfect UIs across mobile and web platforms using ReactJS Design, Responsible for delivery of assigned module/ components /phases of a project responsible to work very closely with key business & data analysts and technology teams Leading a team of 6 developers in a sprint-based model for task management Provide technical oversight to onshore and offshore design and development effort`,
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },{
@@ -196,7 +199,7 @@ const app = Vue.createApp({
           companyName: { en: 'TA Digital', ar: 'شركة جوجل' },
           jobTitle: { en: 'Technical Front-End Developer Lead', ar: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored Every technical aspects of the front-end delivery for projects.',
+            en: ` Collect requirements, and technical analysis of the task before implementation and estimate the efforts. Design, build and maintain efficient, reusable, and reliable code. Leading a team of 10 developers in a sprint-based model for task management. Develop, customize mobile/UI applications using React Js, Redux, AEM, HTML 5, etc. Collaborate and build relationships with other development team members. Responsible for delivery of assigned module/ components /phases of a project`,
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         },   {}, {}
@@ -209,16 +212,16 @@ const app = Vue.createApp({
       allPortfolioItems: [
         {
           id: 1,
-          url: '#',
+          url: 'single-portfolio.html?id=1',
           imgUrl: 'assets/images/portfolio/portfolio-1.png',
-          title: { en: 'Lorem Ipsum Dolor 1', ar: 'هنا عنوان المشروع 1' },
-          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          title: { en: 'AARP Staying Sharp', ar: 'هنا عنوان المشروع 1' },
+          date: { en: 'April 2019', ar: 'أبريل 2021' },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'Staying Sharp is a program that provides evidence-based information and actions you can take to maintain and improve your brain health as you age. Choose from articles, recipes, activities, videos and fun brain games designed to fit into your daily routine. Create your own plan by saving the actions that inspire you.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'HTML',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+          category: 'React',
+          tools: ['HTML', 'React Js', 'AEM Contexthub', 'AEM', 'CSS', 'SCSS', 'JavaScript', 'Webpack', 'deque'],
           screenshots: {
             img1: {
               url: 'assets/images/single-portfolio/single-portfolio-5.png',
@@ -242,46 +245,591 @@ const app = Vue.createApp({
             }
           }
         }, {
-          url: '#',
+          id: 2,
+          url: 'single-portfolio.html?id=2',
           imgUrl: 'assets/images/portfolio/portfolio-2.png',
-          title: { en: 'Apollo Education', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2014', ar: 'April 2014' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'Redawning', ar: 'هنا عنوان المشروع 2' },
+          date: { en: 'April 2018', ar: 'أبريل 2021' },
+          desc: {
+            en: 'vacation rental partner to the travel industry.RedAwning is password protected booking tool that gives travel advisors, tour operators, and other industry partners access to over 140,000 vacation rentals worldwide.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'React',
+          tools: ['HTML', 'React', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
-          url: '#',
+          id: 3,
+          url: 'single-portfolio.html?id=3',
           imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
+          title: { en: 'Leasestar Marketing', ar: 'هنا عنوان المشروع 3' },
+          date: { en: 'April 2015', ar: 'أبريل 2021' },
+          desc: {
+            en: 'RealPage provides a technology platform that enables real estate owners and managers to change how people experience and use rental space. Clients use the platform to gain transparency into asset performance, leverage data insights and monetize space to create incremental yields.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
-          url: '#',
+          id: 4,
+          url: 'single-portfolio.html?id=4',
           imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          title: { en: 'Apollo Edu', ar: 'هنا عنوان المشروع 4' },
+          date: { en: 'March 2014', ar: 'أبريل 2021' },
+          desc: {
+            en: 'The apollo edu is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
-          url: '#',
+          id: 5,
+          url: 'single-portfolio.html?id=5',
           imgUrl: 'assets/images/portfolio/portfolio-5.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'University of Phenoix', ar: 'هنا عنوان المشروع 5' },
+          date: { en: 'April 2013', ar: 'أبريل 2021' },
+          desc: {
+            en: 'The University of Phoenix is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'AEM'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
-          url: '#',
+          id: 6,
+          url: 'single-portfolio.html?id=6',
           imgUrl: 'assets/images/portfolio/portfolio-6.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'vue', name: 'Vue' }
+          title: { en: 'Paychex', ar: 'هنا عنوان المشروع 6' },
+          date: { en: 'july 2012', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Paychex has HR solutions to fit the needs of any size business, from startup to enterprise. Let Paychex help you take your business where it needs to go.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'Perl', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'TeamSite'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }, {
-          url: '#',
+          id: 7,
+          url: 'single-portfolio.html?id=7',
+          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          title: { en: 'BWW Wedding Planner', ar: 'هنا عنوان المشروع 7' },
+          date: { en: 'August 2013', ar: 'أبريل 2021' },
+          desc: {
+            en: 'BWW wedding planner is company based on India provides various wedding events services',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 8,
+          url: 'single-portfolio.html?id=8',
+          imgUrl: 'assets/images/portfolio/portfolio-4.png',
+          title: { en: 'Lorem Ipsum Dolor 8', ar: 'هنا عنوان المشروع 8' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Vue',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 9,
+          url: 'single-portfolio.html?id=9',
+          imgUrl: 'assets/images/portfolio/portfolio-5.png',
+          title: { en: 'Lorem Ipsum Dolor 9', ar: 'هنا عنوان المشروع 9' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 10,
+          url: 'single-portfolio.html?id=10',
+          imgUrl: 'assets/images/portfolio/portfolio-6.png',
+          title: { en: 'Lorem Ipsum Dolor 10', ar: 'هنا عنوان المشروع 10' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 11,
+          url: 'single-portfolio.html?id=11',
+          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          title: { en: 'Lorem Ipsum Dolor 11', ar: 'هنا عنوان المشروع 11' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Vue',
+          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 12,
+          url: 'single-portfolio.html?id=12',
           imgUrl: 'assets/images/portfolio/portfolio-1.png',
-          title: { en: 'Lorem Ipsum Dolor', ar: 'هنا عنوان المشروع' },
-          desc: { en: 'April 2021', ar: 'أبريل 2021' },
-          category: { slug: 'html', name: 'HTML' }
+          title: { en: 'Lorem Ipsum Dolor 12', ar: 'هنا عنوان المشروع 12' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 13,
+          url: 'single-portfolio.html?id=13',
+          imgUrl: 'assets/images/portfolio/portfolio-2.png',
+          title: { en: 'Lorem Ipsum Dolor 13', ar: 'هنا عنوان المشروع 13' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'HTML',
+          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 14,
+          url: 'single-portfolio.html?id=14',
+          imgUrl: 'assets/images/portfolio/portfolio-3.png',
+          title: { en: 'Lorem Ipsum Dolor 14', ar: 'هنا عنوان المشروع 14' },
+          date: { en: 'April 2021', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 15,
+          url: 'single-portfolio.html?id=15',
+          imgUrl: 'assets/images/portfolio/portfolio-4.png',
+          title: { en: 'Click-play', ar: 'هنا عنوان المشروع 15' },
+          date: { en: 'April 2017', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Click-play is a marketplace where user can sell their service like freelancer, upwork etc',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'React',
+          tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'React', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 16,
+          url: 'single-portfolio.html?id=16',
+          imgUrl: 'assets/images/portfolio/portfolio-5.png',
+          title: { en: 'Next Gen classified', ar: 'هنا عنوان المشروع 16' },
+          date: { en: 'April 2015', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Next Gen classified is like "buyers and sellers marketplace like eBay"',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 17,
+          url: 'single-portfolio.html?id=17',
+          imgUrl: 'assets/images/portfolio/portfolio-6.png',
+          title: { en: 'EasySign Solutions', ar: 'هنا عنوان المشروع 17' },
+          date: { en: 'April 2014', ar: 'أبريل 2021' },
+          desc: {
+            en: 'EasySign Solutions is an Indian logistics company that provides courier delivery services.',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'Angular',
+          tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
+        }, {
+          id: 18,
+          url: 'single-portfolio.html?id=18',
+          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          title: { en: 'Slambook', ar: 'هنا عنوان المشروع 18' },
+          date: { en: 'Nov 2015', ar: 'أبريل 2021' },
+          desc: {
+            en: 'Slambook app provides user freindly UX for capturing old memories into digital world',
+            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          },
+          category: 'React',
+          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'React', 'NodeJs', 'MongoDB'],
+          screenshots: {
+            img1: {
+              url: 'assets/images/single-portfolio/single-portfolio-5.png',
+              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+            },
+            img2: {
+              url: 'assets/images/single-portfolio/single-portfolio-4.png',
+              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+            },
+            img3: {
+              url: 'assets/images/single-portfolio/single-portfolio-3.png',
+              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+            },
+            img4: {
+              url: 'assets/images/single-portfolio/single-portfolio-2.png',
+              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+            },
+            img5: {
+              url: 'assets/images/single-portfolio/single-portfolio-1.png',
+              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+            }
+          }
         }
       ].reverse(),
 
       // current page of portfolio items
       portfolioItemsPage: 0,
+
+      filters: ['All', 'HTML', 'Angular', 'React'],
+      currentFilter: 'All',
 
       // viewed portfolio items
       portfolioItems: [],
@@ -297,7 +845,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Rakesh Jha', ar: 'جابر العواني' },
           jobTitle: { en: 'Minimalist | Human | Software & Technology', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQElA7Brr7Yszg/profile-displayphoto-shrink_100_100/0/1598817545591?e=1642636800&v=beta&t=liK0isa7LDqwNZEo761D_JrgP0hVXfLlKW4_EbWITYI',
+          imgUrl: 'assets/images/testimonials/sumit.jpeg',
           quoteContent: {
             en: 'Sourabh is a great project partner, I really enjoyed as worked with him.. This is very timely as I am about to write my first recommendation for a colleague. Sourabh is extremely enthusiastic about his work which is infectious. I certainly would recommend him for any helps in projects or discussions.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
@@ -313,7 +861,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Narsimlu Katam', ar: 'مصطفى الخليفي' },
           jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4D03AQFrXZiO89Pk9g/profile-displayphoto-shrink_100_100/0/1633181446022?e=1642636800&v=beta&t=x_CiffQYbye-sSt5Qc0IY24zFCYYK-_dfbfnYx405xI',
           quoteContent: {
             en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
@@ -321,7 +869,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
           jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQERA-lDpM_TmQ/profile-displayphoto-shrink_100_100/0/1629722845829?e=1642636800&v=beta&t=qNBDbdAcdgQ219dFTF8YYjaeRXyjlysRblS-sIrvebg',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -329,7 +877,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
           jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQGi9jvcR2IDrQ/profile-displayphoto-shrink_100_100/0/1551105299877?e=1642636800&v=beta&t=2Nfpoo7N-KKiYws9SQ2zJfeQv2sgg6MKUxQ7tGtOEBE',
           quoteContent: {
             en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
@@ -337,7 +885,15 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
           jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4D03AQHqHfnJrc4h-A/profile-displayphoto-shrink_100_100/0/1516306158607?e=1642636800&v=beta&t=0VZAMuebLtt8adS4yqaNGGglLIOaCfnLRYKQkyUr4eQ',
+          quoteContent: {
+            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
+          },
+          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
+          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+        },{
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C5603AQHclxqmfjVZRw/profile-displayphoto-shrink_100_100/0/1595912047429?e=1642636800&v=beta&t=MnMZa4TBcK7K05IvKCci5d4H--0JdXQU7aXoCk2kT0o',
           quoteContent: {
             en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
@@ -345,31 +901,16 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
           jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQExKkDK6XyTRg/profile-displayphoto-shrink_100_100/0/1579025361462?e=1642636800&v=beta&t=GVlxn2VGeuuJO61rBgR-aW93thVUGATe-x5hYjZO71s',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
           },
           quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
           jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'https://via.placeholder.com/200',
-          quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'https://via.placeholder.com/200',
-          quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'https://via.placeholder.com/200',
+        }, 
+        {
+          imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
           quoteContent: {
             en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
@@ -377,7 +918,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Casper Paucek', ar: 'حسان ادريس' },
           jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
           quoteContent: {
             en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
@@ -385,7 +926,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
           jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
           quoteContent: {
             en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
@@ -393,7 +934,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
           jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
           quoteContent: {
             en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
@@ -401,7 +942,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Javon Bogan', ar: 'صهيب الشريف' },
           jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
           quoteContent: {
             en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
@@ -409,7 +950,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
           jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
           quoteContent: {
             en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
@@ -417,7 +958,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
           jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
           quoteContent: {
             en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -425,14 +966,63 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Murphy Roberts', ar: 'إسلام مصطفى' },
           jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
         }, {
-          imgUrl: 'https://via.placeholder.com/200',
+          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
           quoteContent: {
             en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
           quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
           jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }
+        },
+        {
+          imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
+          quoteContent: {
+            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
+            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
+          },
+          quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
+          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
+        }, {
+          imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
+          quoteContent: {
+            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
+          },
+          quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
+          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+        }, {
+          imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
+          quoteContent: {
+            en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
+          },
+          quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
+          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+        }, {
+          imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
+          quoteContent: {
+            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
+            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
+          },
+          quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
+          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
+        }, {
+          imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
+          quoteContent: {
+            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
+          },
+          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
+          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+        }, {
+          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
+          quoteContent: {
+            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
+          },
+          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
+          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
+        },
       ]
     }
   },
@@ -644,6 +1234,10 @@ const app = Vue.createApp({
 
     // initialize VanillaTilt library in portfolio section
     initializeTilt() {
+      const portfolioItems = this.$refs.portfolioItems;
+
+      // return if disabled
+      if (!portfolioItems) { return; }
       VanillaTilt.init(this.$refs.portfolioItems.querySelectorAll('.portfolio-item'), {
         max: 8,
         speed: 400,
@@ -674,6 +1268,20 @@ const app = Vue.createApp({
           msg: this.$refs.portfolioItems.getAttribute('data-no-more-works-msg'),
           time: 3000
         });
+      }
+    },
+     // filter portfolio items
+     filterPortfolioItems(filter) {
+      this.currentFilter = filter;
+      this.portfolioItemsPage = 1;
+
+      if (this.filteredPortfolioItems.length) {
+        // initialize VanillaTilt for new items
+        setTimeout(() => this.initializeTilt(), 0);
+
+      } else {
+        // get new portfolio items
+        this.getPortfolioItems();
       }
     },
 
@@ -907,6 +1515,7 @@ const app = Vue.createApp({
     }
   },
   computed: {
+
     // flag to toggle ajax loading spinner
     isAjaxLoading() {
       return this.ajaxLoading.some(state => state === true);
@@ -920,6 +1529,27 @@ const app = Vue.createApp({
     // split experience items into chunks of 3 items
     experienceChunks() {
       return [...Array(Math.ceil(this.experienceItems.length / 3))].map(() => this.experienceItems.splice(0, 3));
+    },
+
+    // filtered portfolio items
+    filteredPortfolioItems() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const tax = urlParams.get('tax');
+
+      if (tax) {
+        return this.portfolioItems;
+
+      } else {
+        return this.portfolioItems.filter(item => this.currentFilter === 'All' || item.category === this.currentFilter);
+      }
+    },
+
+    // get single portfolio item
+    getSinglePortfolioItem() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+
+      return this.allPortfolioItems.find(item => item.id == id);
     },
 
     // get the total years of copyright
