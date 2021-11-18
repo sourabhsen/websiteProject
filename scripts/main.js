@@ -221,7 +221,7 @@ const app = Vue.createApp({
         {
           id: 1,
           url: 'single-portfolio.html?id=1',
-          imgUrl: 'assets/images/portfolio/portfolio-1.png',
+          imgUrl: 'assets/images/portfolio/brain.jpeg',
           title: { en: 'AARP Staying Sharp', ar: 'هنا عنوان المشروع 1' },
           date: { en: 'April 2019', ar: 'أبريل 2021' },
           desc: {
@@ -255,7 +255,7 @@ const app = Vue.createApp({
         }, {
           id: 2,
           url: 'single-portfolio.html?id=2',
-          imgUrl: 'assets/images/portfolio/portfolio-2.png',
+          imgUrl: 'assets/images/portfolio/travel.jpeg',
           title: { en: 'Redawning', ar: 'هنا عنوان المشروع 2' },
           date: { en: 'April 2018', ar: 'أبريل 2021' },
           desc: {
@@ -290,7 +290,7 @@ const app = Vue.createApp({
         }, {
           id: 3,
           url: 'single-portfolio.html?id=3',
-          imgUrl: 'assets/images/portfolio/portfolio-3.png',
+          imgUrl: 'assets/images/portfolio/leasestar3.jpeg',
           title: { en: 'Leasestar Marketing', ar: 'هنا عنوان المشروع 3' },
           date: { en: 'April 2015', ar: 'أبريل 2021' },
           desc: {
@@ -324,7 +324,7 @@ const app = Vue.createApp({
         }, {
           id: 4,
           url: 'single-portfolio.html?id=4',
-          imgUrl: 'assets/images/portfolio/portfolio-4.png',
+          imgUrl: 'assets/images/portfolio/apollo4.png',
           title: { en: 'Apollo Edu', ar: 'هنا عنوان المشروع 4' },
           date: { en: 'March 2014', ar: 'أبريل 2021' },
           desc: {
@@ -354,7 +354,7 @@ const app = Vue.createApp({
         }, {
           id: 5,
           url: 'single-portfolio.html?id=5',
-          imgUrl: 'assets/images/portfolio/portfolio-5.png',
+          imgUrl: 'assets/images/portfolio/apollo2.jpeg',
           title: { en: 'University of Phenoix', ar: 'هنا عنوان المشروع 5' },
           date: { en: 'April 2013', ar: 'أبريل 2021' },
           desc: {
@@ -418,7 +418,7 @@ const app = Vue.createApp({
         }, {
           id: 7,
           url: 'single-portfolio.html?id=7',
-          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          imgUrl: 'assets/images/portfolio/wedding.jpeg',
           title: { en: 'BWW Wedding Planner', ar: 'هنا عنوان المشروع 7' },
           date: { en: 'August 2013', ar: 'أبريل 2021' },
           desc: {
@@ -452,7 +452,7 @@ const app = Vue.createApp({
         }, {
           id: 8,
           url: 'single-portfolio.html?id=8',
-          imgUrl: 'assets/images/portfolio/portfolio-4.png',
+          imgUrl: 'assets/images/portfolio/gamma.jpg',
           title: { en: 'Gamma Game', ar: 'هنا عنوان المشروع 8' },
           date: { en: 'April 2021', ar: 'أبريل 2021' },
           desc: {
@@ -517,7 +517,7 @@ const app = Vue.createApp({
         }, {
           id: 10,
           url: 'single-portfolio.html?id=10',
-          imgUrl: 'assets/images/portfolio/portfolio-6.png',
+          imgUrl: 'assets/images/portfolio/apollo4.png',
           title: { en: 'Careers Tools', ar: 'هنا عنوان المشروع 10' },
           date: { en: 'April 2013', ar: 'أبريل 2021' },
           desc: {
@@ -553,7 +553,7 @@ const app = Vue.createApp({
         }, {
           id: 11,
           url: 'single-portfolio.html?id=11',
-          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          imgUrl: 'assets/images/portfolio/jobsearch.jpeg',
           title: { en: 'Job Search - University of phoenix(Responsive)', ar: 'هنا عنوان المشروع 11' },
           date: { en: 'April 2021', ar: 'أبريل 2021' },
           desc: {
@@ -587,7 +587,7 @@ const app = Vue.createApp({
         }, {
           id: 12,
           url: 'single-portfolio.html?id=12',
-          imgUrl: 'assets/images/portfolio/portfolio-1.png',
+          imgUrl: 'assets/images/portfolio/search.jpeg',
           title: { en: 'Search Engine Marketing', ar: 'هنا عنوان المشروع 12' },
           date: { en: 'April 2021', ar: 'أبريل 2021' },
           desc: {
@@ -689,7 +689,7 @@ const app = Vue.createApp({
         }, {
           id: 15,
           url: 'single-portfolio.html?id=15',
-          imgUrl: 'assets/images/portfolio/portfolio-4.png',
+          imgUrl: 'assets/images/portfolio/clickplay.png',
           title: { en: 'Click-play', ar: 'هنا عنوان المشروع 15' },
           date: { en: 'April 2017', ar: 'أبريل 2021' },
           desc: {
@@ -723,7 +723,7 @@ const app = Vue.createApp({
         }, {
           id: 16,
           url: 'single-portfolio.html?id=16',
-          imgUrl: 'assets/images/portfolio/portfolio-5.png',
+          imgUrl: 'assets/images/portfolio/class1.jpeg',
           title: { en: 'Next Gen classified', ar: 'هنا عنوان المشروع 16' },
           date: { en: 'April 2015', ar: 'أبريل 2021' },
           desc: {
@@ -791,7 +791,7 @@ const app = Vue.createApp({
         }, {
           id: 18,
           url: 'single-portfolio.html?id=18',
-          imgUrl: 'assets/images/portfolio/portfolio-7.png',
+          imgUrl: 'assets/images/portfolio/slambook.png',
           title: { en: 'Slambook', ar: 'هنا عنوان المشروع 18' },
           date: { en: 'Nov 2015', ar: 'أبريل 2021' },
           desc: {

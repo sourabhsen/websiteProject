@@ -220,609 +220,609 @@ const app = Vue.createApp({
   
         // list of portfolio items to loop through it
         allPortfolioItems: [
-            {
-              id: 1,
-              url: 'single-portfolio.html?id=1',
-              imgUrl: 'assets/images/portfolio/portfolio-1.png',
-              title: { en: 'AARP Staying Sharp', ar: 'هنا عنوان المشروع 1' },
-              date: { en: 'April 2019', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Staying Sharp is a program that provides evidence-based information and actions you can take to maintain and improve your brain health as you age. Choose from articles, recipes, activities, videos and fun brain games designed to fit into your daily routine. Create your own plan by saving the actions that inspire you.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+          {
+            id: 1,
+            url: 'single-portfolio.html?id=1',
+            imgUrl: 'assets/images/portfolio/brain.jpeg',
+            title: { en: 'AARP Staying Sharp', ar: 'هنا عنوان المشروع 1' },
+            date: { en: 'April 2019', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Staying Sharp is a program that provides evidence-based information and actions you can take to maintain and improve your brain health as you age. Choose from articles, recipes, activities, videos and fun brain games designed to fit into your daily routine. Create your own plan by saving the actions that inspire you.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'React Js', 'AEM Contexthub', 'AEM', 'CSS', 'SCSS', 'JavaScript', 'Webpack', 'deque'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/brain.jpeg',
+                caption: { en: 'Brain Health', ar: 'تسمية توضيحية 5' }
               },
-              category: 'React',
-              tools: ['HTML', 'React Js', 'AEM Contexthub', 'AEM', 'CSS', 'SCSS', 'JavaScript', 'Webpack', 'deque'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/brain.jpeg',
-                  caption: { en: 'Brain Health', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/brain2.png',
-                  caption: { en: 'Brain Assessment', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/brain3.jpeg',
-                  caption: { en: 'Brain related Articles', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'Brain Activities', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'Brain Games', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 2,
-              url: 'single-portfolio.html?id=2',
-              imgUrl: 'assets/images/portfolio/portfolio-2.png',
-              title: { en: 'Redawning', ar: 'هنا عنوان المشروع 2' },
-              date: { en: 'April 2018', ar: 'أبريل 2021' },
-              desc: {
-                en: 'vacation rental partner to the travel industry.RedAwning is password protected booking tool that gives travel advisors, tour operators, and other industry partners access to over 140,000 vacation rentals worldwide.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+              img2: {
+                url: 'assets/images/single-portfolio/brain2.png',
+                caption: { en: 'Brain Assessment', ar: 'تسمية توضيحية 4' }
               },
-              category: 'React',
-              tools: ['HTML', 'React', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/travel.jpeg',
-                  caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/travel1.jpeg',
-                  caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/travel2.png',
-                  caption: { en: 'Travel', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'travel advisors', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                    url: 'assets/images/single-portfolio/travel4.png',
-                    caption: { en: 'vacation rentals', ar: 'تسمية توضيحية 2' }
-                  },
-            
-              }
-            }, {
-              id: 3,
-              url: 'single-portfolio.html?id=3',
-              imgUrl: 'assets/images/portfolio/portfolio-3.png',
-              title: { en: 'Leasestar Marketing', ar: 'هنا عنوان المشروع 3' },
-              date: { en: 'April 2015', ar: 'أبريل 2021' },
-              desc: {
-                en: 'RealPage provides a technology platform that enables real estate owners and managers to change how people experience and use rental space. Clients use the platform to gain transparency into asset performance, leverage data insights and monetize space to create incremental yields.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+              img3: {
+                url: 'assets/images/single-portfolio/brain3.jpeg',
+                caption: { en: 'Brain related Articles', ar: 'تسمية توضيحية 3' }
               },
-              category: 'Angular',
-              tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/leasestar.jpeg',
-                  caption: { en: 'Generate Revenue', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/leasestar1.jpeg',
-                  caption: { en: 'Marketing Data', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/leasestar2.jpeg',
-                  caption: { en: 'Attractive Marketing Dashboard', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/leasestar3.jpeg',
-                  caption: { en: 'Generate More Leads', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/leasestar4.jpeg',
-                  caption: { en: 'Lead Generations', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 4,
-              url: 'single-portfolio.html?id=4',
-              imgUrl: 'assets/images/portfolio/portfolio-4.png',
-              title: { en: 'Apollo Edu', ar: 'هنا عنوان المشروع 4' },
-              date: { en: 'March 2014', ar: 'أبريل 2021' },
-              desc: {
-                en: 'The apollo edu is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'Brain Activities', ar: 'تسمية توضيحية 2' }
               },
-              category: 'HTML',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/apollo1.jpeg',
-                  caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/apollo2.jpeg',
-                  caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/apollo3.jpeg',
-                  caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/apollo4.png',
-                  caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 5,
-              url: 'single-portfolio.html?id=5',
-              imgUrl: 'assets/images/portfolio/portfolio-5.png',
-              title: { en: 'University of Phenoix', ar: 'هنا عنوان المشروع 5' },
-              date: { en: 'April 2013', ar: 'أبريل 2021' },
-              desc: {
-                en: 'The University of Phoenix is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'AEM'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/apollo1.jpeg',
-                  caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/apollo2.jpeg',
-                  caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/apollo3.jpeg',
-                  caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/apollo4.png',
-                  caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 6,
-              url: 'single-portfolio.html?id=6',
-              imgUrl: 'assets/images/portfolio/portfolio-6.png',
-              title: { en: 'Paychex', ar: 'هنا عنوان المشروع 6' },
-              date: { en: 'july 2012', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Paychex has HR solutions to fit the needs of any size business, from startup to enterprise. Let Paychex help you take your business where it needs to go.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'HTML',
-              tools: ['HTML', 'Perl', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'TeamSite'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/paychex1.png',
-                  caption: { en: 'HR Services', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/paychex2.jpeg',
-                  caption: { en: 'Partner Solutions', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/paychex3.jpeg',
-                  caption: { en: 'Business Solutions', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/paychex4.jpeg',
-                  caption: { en: 'HR Process', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/paychex5.jpg',
-                  caption: { en: 'HR Solutions', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 7,
-              url: 'single-portfolio.html?id=7',
-              imgUrl: 'assets/images/portfolio/portfolio-7.png',
-              title: { en: 'BWW Wedding Planner', ar: 'هنا عنوان المشروع 7' },
-              date: { en: 'August 2013', ar: 'أبريل 2021' },
-              desc: {
-                en: 'BWW wedding planner is company based on India provides various wedding events services',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'HTML',
-              tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/wedding1.jpeg',
-                  caption: { en: 'Wedding Events Services', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/wedding.jpeg',
-                  caption: { en: 'Bridal/Groom Wear', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/wedding2.jpeg',
-                  caption: { en: 'Photographers', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/wedding3.png',
-                  caption: { en: 'Invitation Cards', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/wedding4.png',
-                  caption: { en: 'Catering Services', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 8,
-              url: 'single-portfolio.html?id=8',
-              imgUrl: 'assets/images/portfolio/portfolio-4.png',
-              title: { en: 'Gamma Game', ar: 'هنا عنوان المشروع 8' },
-              date: { en: 'April 2021', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Gamma Game is mobile based games supports for all mobile versions',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'React',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs',],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/gamma.jpg',
-                  caption: { en: 'Game Screen', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/gamma1.png',
-                  caption: { en: 'Game Screen', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/gamma2.png',
-                  caption: { en: 'Game Screen', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/gamma3.png',
-                  caption: { en: 'Game Screen', ar: 'تسمية توضيحية 2' }
-                }
-              
-              }
-            }, {
-              id: 9,
-              url: 'single-portfolio.html?id=9',
-              imgUrl: 'assets/images/portfolio/portfolio-5.png',
-              title: { en: 'A Conclusive Approach To Analyze Web Reviews Through Maximal Phrase Based Technique', ar: 'هنا عنوان المشروع 9' },
-              date: { en: 'April 2012', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Its a conclusive approach to analyze comments or reviews about a product/searched term from the web. In this paper we explore the use of phrases occurring maximally in text as properties for sentiment classification of product reviews. The approach does not rely on predefined sentiment lexicons, and the motivation for this is that potentially every word could be considered as expressing something positive and/or negative in different situations, and that the context and the personal attitude of the opinion holder should be taken into consideration while determining the polarity of the phrase, instead of doing this out of a particular context.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 10,
-              url: 'single-portfolio.html?id=10',
-              imgUrl: 'assets/images/portfolio/portfolio-6.png',
-              title: { en: 'Careers Tools', ar: 'هنا عنوان المشروع 10' },
-              date: { en: 'April 2013', ar: 'أبريل 2021' },
-              desc: {
-                en: `This is one of the major projects for University of Phoenix which provides guidance about the career
-                opportunities, Market analysis, build resumes, Career resources and community to the military and
-                nonmilitary students. University students can build their careers and hunting their dream jobs.`,
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'HTML',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 11,
-              url: 'single-portfolio.html?id=11',
-              imgUrl: 'assets/images/portfolio/portfolio-7.png',
-              title: { en: 'Job Search - University of phoenix(Responsive)', ar: 'هنا عنوان المشروع 11' },
-              date: { en: 'April 2021', ar: 'أبريل 2021' },
-              desc: {
-                en: 'This tool exploring exciting job opportunities from leading employers across the nation through the Phoenix Career Services Employer Portal. Here, hundreds of employers across the country and in many different industries provide lists of career and internship opportunities and information about their corporate culture and mission.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Vue',
-              tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 12,
-              url: 'single-portfolio.html?id=12',
-              imgUrl: 'assets/images/portfolio/portfolio-1.png',
-              title: { en: 'Search Engine Marketing', ar: 'هنا عنوان المشروع 12' },
-              date: { en: 'April 2021', ar: 'أبريل 2021' },
-              desc: {
-                en: 'we develop Search engine marketing (SEM) webpage for University of Phoenix. It helps in the form of Internet marketing that involves the promotion of their features by increasing their visibility in search engine results pages (SERPs) through optimization and advertising.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 13,
-              url: 'single-portfolio.html?id=13',
-              imgUrl: 'assets/images/portfolio/portfolio-2.png',
-              title: { en: 'Resume Builder', ar: 'هنا عنوان المشروع 13' },
-              date: { en: 'April 2021', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Online Tool for Building Resume from Scratch using web',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML',  'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 14,
-              url: 'single-portfolio.html?id=14',
-              imgUrl: 'assets/images/portfolio/portfolio-3.png',
-              title: { en: 'FitBit', ar: 'هنا عنوان المشروع 14' },
-              date: { en: 'April 2019', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Fitbit is an American consumer electronics and fitness company. It produces wireless-enabled wearable technology physical fitness monitors and activity trackers such as smartwatches, pedometers and monitors for heart rate, quality of sleep, and stairs climbed as well as related software.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'React',
-              tools: ['HTML', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/smart.jpeg',
-                  caption: { en: 'SmartWach Features', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/smart1.jpeg',
-                  caption: { en: 'Health monitor', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/smart2.jpeg',
-                  caption: { en: 'Track activities', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/smart3.jpeg',
-                  caption: { en: 'Visual Data', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/smart4.jpeg',
-                  caption: { en: 'Monitor', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 15,
-              url: 'single-portfolio.html?id=15',
-              imgUrl: 'assets/images/portfolio/portfolio-4.png',
-              title: { en: 'Click-play', ar: 'هنا عنوان المشروع 15' },
-              date: { en: 'April 2017', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Click-play is a marketplace where user can sell their service like freelancer, upwork etc',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'React',
-              tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'React', 'Firebase'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'Freelancer Skills', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'Pay for your Skills', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'Payment Managment', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'Work Management', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'Upgrade Skills', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 16,
-              url: 'single-portfolio.html?id=16',
-              imgUrl: 'assets/images/portfolio/portfolio-5.png',
-              title: { en: 'Next Gen classified', ar: 'هنا عنوان المشروع 16' },
-              date: { en: 'April 2015', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Next Gen classified is like "buyers and sellers marketplace like eBay"',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/class.jpg',
-                  caption: { en: 'Classified Services', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/class1.jpeg',
-                  caption: { en: 'Product Explore', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/class2.png',
-                  caption: { en: 'Marketplace', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/class3.png',
-                  caption: { en: 'More Leads', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/class4.jpeg',
-                  caption: { en: 'Social Sharing', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 17,
-              url: 'single-portfolio.html?id=17',
-              imgUrl: 'assets/images/portfolio/portfolio-6.png',
-              title: { en: 'EasySign Solutions', ar: 'هنا عنوان المشروع 17' },
-              date: { en: 'April 2014', ar: 'أبريل 2021' },
-              desc: {
-                en: 'EasySign Solutions is an Indian logistics company that provides courier delivery services.',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'Angular',
-              tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                  caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                  caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                  caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                  caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-                },
-                img5: {
-                  url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                  caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-                }
-              }
-            }, {
-              id: 18,
-              url: 'single-portfolio.html?id=18',
-              imgUrl: 'assets/images/portfolio/portfolio-7.png',
-              title: { en: 'Slambook', ar: 'هنا عنوان المشروع 18' },
-              date: { en: 'Nov 2015', ar: 'أبريل 2021' },
-              desc: {
-                en: 'Slambook app provides user freindly UX for capturing old memories into digital world',
-                ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-              },
-              category: 'React',
-              tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'React', 'NodeJs', 'MongoDB'],
-              screenshots: {
-                img1: {
-                  url: 'assets/images/single-portfolio/slambook.png',
-                  caption: { en: 'Slambook', ar: 'تسمية توضيحية 5' }
-                },
-                img2: {
-                  url: 'assets/images/single-portfolio/slambook1.png',
-                  caption: { en: 'Share Memories', ar: 'تسمية توضيحية 4' }
-                },
-                img3: {
-                  url: 'assets/images/single-portfolio/slambook2.jpeg',
-                  caption: { en: 'Capture Memories', ar: 'تسمية توضيحية 3' }
-                },
-                img4: {
-                  url: 'assets/images/single-portfolio/slambook3.png',
-                  caption: { en: 'Report', ar: 'تسمية توضيحية 2' }
-                },
-               
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'Brain Games', ar: 'تسمية توضيحية 1' }
               }
             }
-          ].reverse(),
+          }, {
+            id: 2,
+            url: 'single-portfolio.html?id=2',
+            imgUrl: 'assets/images/portfolio/travel.jpeg',
+            title: { en: 'Redawning', ar: 'هنا عنوان المشروع 2' },
+            date: { en: 'April 2018', ar: 'أبريل 2021' },
+            desc: {
+              en: 'vacation rental partner to the travel industry.RedAwning is password protected booking tool that gives travel advisors, tour operators, and other industry partners access to over 140,000 vacation rentals worldwide.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'React', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/travel.jpeg',
+                caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/travel1.jpeg',
+                caption: { en: 'Vaccation Homes', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/travel2.png',
+                caption: { en: 'Travel', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'travel advisors', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                  url: 'assets/images/single-portfolio/travel4.png',
+                  caption: { en: 'vacation rentals', ar: 'تسمية توضيحية 2' }
+                },
+          
+            }
+          }, {
+            id: 3,
+            url: 'single-portfolio.html?id=3',
+            imgUrl: 'assets/images/portfolio/leasestar3.jpeg',
+            title: { en: 'Leasestar Marketing', ar: 'هنا عنوان المشروع 3' },
+            date: { en: 'April 2015', ar: 'أبريل 2021' },
+            desc: {
+              en: 'RealPage provides a technology platform that enables real estate owners and managers to change how people experience and use rental space. Clients use the platform to gain transparency into asset performance, leverage data insights and monetize space to create incremental yields.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/leasestar.jpeg',
+                caption: { en: 'Generate Revenue', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/leasestar1.jpeg',
+                caption: { en: 'Marketing Data', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/leasestar2.jpeg',
+                caption: { en: 'Attractive Marketing Dashboard', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/leasestar3.jpeg',
+                caption: { en: 'Generate More Leads', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/leasestar4.jpeg',
+                caption: { en: 'Lead Generations', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 4,
+            url: 'single-portfolio.html?id=4',
+            imgUrl: 'assets/images/portfolio/apollo4.png',
+            title: { en: 'Apollo Edu', ar: 'هنا عنوان المشروع 4' },
+            date: { en: 'March 2014', ar: 'أبريل 2021' },
+            desc: {
+              en: 'The apollo edu is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'HTML',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/apollo1.jpeg',
+                caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/apollo2.jpeg',
+                caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/apollo3.jpeg',
+                caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/apollo4.png',
+                caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 5,
+            url: 'single-portfolio.html?id=5',
+            imgUrl: 'assets/images/portfolio/apollo2.jpeg',
+            title: { en: 'University of Phenoix', ar: 'هنا عنوان المشروع 5' },
+            date: { en: 'April 2013', ar: 'أبريل 2021' },
+            desc: {
+              en: 'The University of Phoenix is an open-enrollment institution of higher Learning There students study online on their campus solutions.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'Angular', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'AEM'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/apollo1.jpeg',
+                caption: { en: 'OnlineCourses', ar: 'تسمية توضيحية 4' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/apollo2.jpeg',
+                caption: { en: 'Online Education Service', ar: 'تسمية توضيحية 3' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/apollo3.jpeg',
+                caption: { en: 'Online Training', ar: 'تسمية توضيحية 2' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/apollo4.png',
+                caption: { en: 'Educations Service', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 6,
+            url: 'single-portfolio.html?id=6',
+            imgUrl: 'assets/images/portfolio/portfolio-6.png',
+            title: { en: 'Paychex', ar: 'هنا عنوان المشروع 6' },
+            date: { en: 'july 2012', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Paychex has HR solutions to fit the needs of any size business, from startup to enterprise. Let Paychex help you take your business where it needs to go.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'HTML',
+            tools: ['HTML', 'Perl', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'TeamSite'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/paychex1.png',
+                caption: { en: 'HR Services', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/paychex2.jpeg',
+                caption: { en: 'Partner Solutions', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/paychex3.jpeg',
+                caption: { en: 'Business Solutions', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/paychex4.jpeg',
+                caption: { en: 'HR Process', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/paychex5.jpg',
+                caption: { en: 'HR Solutions', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 7,
+            url: 'single-portfolio.html?id=7',
+            imgUrl: 'assets/images/portfolio/wedding.jpeg',
+            title: { en: 'BWW Wedding Planner', ar: 'هنا عنوان المشروع 7' },
+            date: { en: 'August 2013', ar: 'أبريل 2021' },
+            desc: {
+              en: 'BWW wedding planner is company based on India provides various wedding events services',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'HTML',
+            tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/wedding1.jpeg',
+                caption: { en: 'Wedding Events Services', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/wedding.jpeg',
+                caption: { en: 'Bridal/Groom Wear', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/wedding2.jpeg',
+                caption: { en: 'Photographers', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/wedding3.png',
+                caption: { en: 'Invitation Cards', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/wedding4.png',
+                caption: { en: 'Catering Services', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 8,
+            url: 'single-portfolio.html?id=8',
+            imgUrl: 'assets/images/portfolio/gamma.jpg',
+            title: { en: 'Gamma Game', ar: 'هنا عنوان المشروع 8' },
+            date: { en: 'April 2021', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Gamma Game is mobile based games supports for all mobile versions',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs',],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/gamma.jpg',
+                caption: { en: 'Game Screen', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/gamma1.png',
+                caption: { en: 'Game Screen', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/gamma2.png',
+                caption: { en: 'Game Screen', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/gamma3.png',
+                caption: { en: 'Game Screen', ar: 'تسمية توضيحية 2' }
+              }
+            
+            }
+          }, {
+            id: 9,
+            url: 'single-portfolio.html?id=9',
+            imgUrl: 'assets/images/portfolio/portfolio-5.png',
+            title: { en: 'A Conclusive Approach To Analyze Web Reviews Through Maximal Phrase Based Technique', ar: 'هنا عنوان المشروع 9' },
+            date: { en: 'April 2012', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Its a conclusive approach to analyze comments or reviews about a product/searched term from the web. In this paper we explore the use of phrases occurring maximally in text as properties for sentiment classification of product reviews. The approach does not rely on predefined sentiment lexicons, and the motivation for this is that potentially every word could be considered as expressing something positive and/or negative in different situations, and that the context and the personal attitude of the opinion holder should be taken into consideration while determining the polarity of the phrase, instead of doing this out of a particular context.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 10,
+            url: 'single-portfolio.html?id=10',
+            imgUrl: 'assets/images/portfolio/apollo4.png',
+            title: { en: 'Careers Tools', ar: 'هنا عنوان المشروع 10' },
+            date: { en: 'April 2013', ar: 'أبريل 2021' },
+            desc: {
+              en: `This is one of the major projects for University of Phoenix which provides guidance about the career
+              opportunities, Market analysis, build resumes, Career resources and community to the military and
+              nonmilitary students. University students can build their careers and hunting their dream jobs.`,
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'HTML',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 11,
+            url: 'single-portfolio.html?id=11',
+            imgUrl: 'assets/images/portfolio/jobsearch.jpeg',
+            title: { en: 'Job Search - University of phoenix(Responsive)', ar: 'هنا عنوان المشروع 11' },
+            date: { en: 'April 2021', ar: 'أبريل 2021' },
+            desc: {
+              en: 'This tool exploring exciting job opportunities from leading employers across the nation through the Phoenix Career Services Employer Portal. Here, hundreds of employers across the country and in many different industries provide lists of career and internship opportunities and information about their corporate culture and mission.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Vue',
+            tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 12,
+            url: 'single-portfolio.html?id=12',
+            imgUrl: 'assets/images/portfolio/search.jpeg',
+            title: { en: 'Search Engine Marketing', ar: 'هنا عنوان المشروع 12' },
+            date: { en: 'April 2021', ar: 'أبريل 2021' },
+            desc: {
+              en: 'we develop Search engine marketing (SEM) webpage for University of Phoenix. It helps in the form of Internet marketing that involves the promotion of their features by increasing their visibility in search engine results pages (SERPs) through optimization and advertising.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 13,
+            url: 'single-portfolio.html?id=13',
+            imgUrl: 'assets/images/portfolio/portfolio-2.png',
+            title: { en: 'Resume Builder', ar: 'هنا عنوان المشروع 13' },
+            date: { en: 'April 2021', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Online Tool for Building Resume from Scratch using web',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML',  'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 14,
+            url: 'single-portfolio.html?id=14',
+            imgUrl: 'assets/images/portfolio/portfolio-3.png',
+            title: { en: 'FitBit', ar: 'هنا عنوان المشروع 14' },
+            date: { en: 'April 2019', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Fitbit is an American consumer electronics and fitness company. It produces wireless-enabled wearable technology physical fitness monitors and activity trackers such as smartwatches, pedometers and monitors for heart rate, quality of sleep, and stairs climbed as well as related software.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/smart.jpeg',
+                caption: { en: 'SmartWach Features', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/smart1.jpeg',
+                caption: { en: 'Health monitor', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/smart2.jpeg',
+                caption: { en: 'Track activities', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/smart3.jpeg',
+                caption: { en: 'Visual Data', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/smart4.jpeg',
+                caption: { en: 'Monitor', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 15,
+            url: 'single-portfolio.html?id=15',
+            imgUrl: 'assets/images/portfolio/clickplay.png',
+            title: { en: 'Click-play', ar: 'هنا عنوان المشروع 15' },
+            date: { en: 'April 2017', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Click-play is a marketplace where user can sell their service like freelancer, upwork etc',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'React', 'Firebase'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'Freelancer Skills', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'Pay for your Skills', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'Payment Managment', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'Work Management', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'Upgrade Skills', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 16,
+            url: 'single-portfolio.html?id=16',
+            imgUrl: 'assets/images/portfolio/class1.jpeg',
+            title: { en: 'Next Gen classified', ar: 'هنا عنوان المشروع 16' },
+            date: { en: 'April 2015', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Next Gen classified is like "buyers and sellers marketplace like eBay"',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/class.jpg',
+                caption: { en: 'Classified Services', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/class1.jpeg',
+                caption: { en: 'Product Explore', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/class2.png',
+                caption: { en: 'Marketplace', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/class3.png',
+                caption: { en: 'More Leads', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/class4.jpeg',
+                caption: { en: 'Social Sharing', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 17,
+            url: 'single-portfolio.html?id=17',
+            imgUrl: 'assets/images/portfolio/portfolio-6.png',
+            title: { en: 'EasySign Solutions', ar: 'هنا عنوان المشروع 17' },
+            date: { en: 'April 2014', ar: 'أبريل 2021' },
+            desc: {
+              en: 'EasySign Solutions is an Indian logistics company that provides courier delivery services.',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'Angular',
+            tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/single-portfolio-5.png',
+                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/single-portfolio-4.png',
+                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/single-portfolio-3.png',
+                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/single-portfolio-2.png',
+                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+              },
+              img5: {
+                url: 'assets/images/single-portfolio/single-portfolio-1.png',
+                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+              }
+            }
+          }, {
+            id: 18,
+            url: 'single-portfolio.html?id=18',
+            imgUrl: 'assets/images/portfolio/slambook.png',
+            title: { en: 'Slambook', ar: 'هنا عنوان المشروع 18' },
+            date: { en: 'Nov 2015', ar: 'أبريل 2021' },
+            desc: {
+              en: 'Slambook app provides user freindly UX for capturing old memories into digital world',
+              ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+            },
+            category: 'React',
+            tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'React', 'NodeJs', 'MongoDB'],
+            screenshots: {
+              img1: {
+                url: 'assets/images/single-portfolio/slambook.png',
+                caption: { en: 'Slambook', ar: 'تسمية توضيحية 5' }
+              },
+              img2: {
+                url: 'assets/images/single-portfolio/slambook1.png',
+                caption: { en: 'Share Memories', ar: 'تسمية توضيحية 4' }
+              },
+              img3: {
+                url: 'assets/images/single-portfolio/slambook2.jpeg',
+                caption: { en: 'Capture Memories', ar: 'تسمية توضيحية 3' }
+              },
+              img4: {
+                url: 'assets/images/single-portfolio/slambook3.png',
+                caption: { en: 'Report', ar: 'تسمية توضيحية 2' }
+              },
+             
+            }
+          }
+        ].reverse(),
   
         // viewed portfolio items
         portfolioItems: [],
