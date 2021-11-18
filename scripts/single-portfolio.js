@@ -386,7 +386,7 @@ const app = Vue.createApp({
           }, {
             id: 6,
             url: 'single-portfolio.html?id=6',
-            imgUrl: 'assets/images/portfolio/portfolio-6.png',
+            imgUrl: 'assets/images/portfolio/paychex3.jpeg',
             title: { en: 'Paychex', ar: 'هنا عنوان المشروع 6' },
             date: { en: 'july 2012', ar: 'أبريل 2021' },
             desc: {
@@ -485,36 +485,32 @@ const app = Vue.createApp({
           }, {
             id: 9,
             url: 'single-portfolio.html?id=9',
-            imgUrl: 'assets/images/portfolio/portfolio-5.png',
+            imgUrl: 'assets/images/portfolio/webreview.jpeg',
             title: { en: 'A Conclusive Approach To Analyze Web Reviews Through Maximal Phrase Based Technique', ar: 'هنا عنوان المشروع 9' },
             date: { en: 'April 2012', ar: 'أبريل 2021' },
             desc: {
               en: 'Its a conclusive approach to analyze comments or reviews about a product/searched term from the web. In this paper we explore the use of phrases occurring maximally in text as properties for sentiment classification of product reviews. The approach does not rely on predefined sentiment lexicons, and the motivation for this is that potentially every word could be considered as expressing something positive and/or negative in different situations, and that the context and the personal attitude of the opinion holder should be taken into consideration while determining the polarity of the phrase, instead of doing this out of a particular context.',
               ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
             },
-            category: 'Angular',
-            tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+            category: 'HTML',
+            tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Python', 'AJAX', 'Java'],
             screenshots: {
               img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+                url: 'assets/images/single-portfolio/webreview.png',
+                caption: { en: 'Text Mining', ar: 'تسمية توضيحية 5' }
               },
               img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+                url: 'assets/images/single-portfolio/webreview.jpeg',
+                caption: { en: 'Text Analysis', ar: 'تسمية توضيحية 4' }
               },
               img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+                url: 'assets/images/single-portfolio/webreview3.png',
+                caption: { en: 'Sentiment Review', ar: 'تسمية توضيحية 3' }
               },
               img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+                url: 'assets/images/single-portfolio/webreview2.jpeg',
+                caption: { en: 'Deep Mining', ar: 'تسمية توضيحية 2' }
               },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
             }
           }, {
             id: 10,
@@ -530,28 +526,7 @@ const app = Vue.createApp({
             },
             category: 'HTML',
             tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-            screenshots: {
-              img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-              },
-              img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-              },
-              img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-              },
-              img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-              },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
-            }
+          
           }, {
             id: 11,
             url: 'single-portfolio.html?id=11',
@@ -562,30 +537,9 @@ const app = Vue.createApp({
               en: 'This tool exploring exciting job opportunities from leading employers across the nation through the Phoenix Career Services Employer Portal. Here, hundreds of employers across the country and in many different industries provide lists of career and internship opportunities and information about their corporate culture and mission.',
               ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
             },
-            category: 'Vue',
+            category: 'HTML',
             tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-            screenshots: {
-              img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-              },
-              img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-              },
-              img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-              },
-              img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-              },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
-            }
+        
           }, {
             id: 12,
             url: 'single-portfolio.html?id=12',
@@ -598,32 +552,10 @@ const app = Vue.createApp({
             },
             category: 'Angular',
             tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
-            screenshots: {
-              img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-              },
-              img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-              },
-              img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-              },
-              img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-              },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
-            }
           }, {
             id: 13,
             url: 'single-portfolio.html?id=13',
-            imgUrl: 'assets/images/portfolio/portfolio-2.png',
+            imgUrl: 'assets/images/portfolio/resume.jpeg',
             title: { en: 'Resume Builder', ar: 'هنا عنوان المشروع 13' },
             date: { en: 'April 2021', ar: 'أبريل 2021' },
             desc: {
@@ -632,28 +564,7 @@ const app = Vue.createApp({
             },
             category: 'Angular',
             tools: ['HTML',  'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-            screenshots: {
-              img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-              },
-              img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-              },
-              img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-              },
-              img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-              },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
-            }
+           
           }, {
             id: 14,
             url: 'single-portfolio.html?id=14',
@@ -768,28 +679,7 @@ const app = Vue.createApp({
             },
             category: 'Angular',
             tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-            screenshots: {
-              img1: {
-                url: 'assets/images/single-portfolio/single-portfolio-5.png',
-                caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-              },
-              img2: {
-                url: 'assets/images/single-portfolio/single-portfolio-4.png',
-                caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-              },
-              img3: {
-                url: 'assets/images/single-portfolio/single-portfolio-3.png',
-                caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-              },
-              img4: {
-                url: 'assets/images/single-portfolio/single-portfolio-2.png',
-                caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-              },
-              img5: {
-                url: 'assets/images/single-portfolio/single-portfolio-1.png',
-                caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-              }
-            }
+          
           }, {
             id: 18,
             url: 'single-portfolio.html?id=18',
