@@ -634,40 +634,6 @@ const app = Vue.createApp({
         }, {
           id: 14,
           url: 'single-portfolio.html?id=14',
-          imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'FitBit', ar: 'هنا عنوان المشروع 14' },
-          date: { en: 'April 2019', ar: 'أبريل 2021' },
-          desc: {
-            en: 'Fitbit is an American consumer electronics and fitness company. It produces wireless-enabled wearable technology physical fitness monitors and activity trackers such as smartwatches, pedometers and monitors for heart rate, quality of sleep, and stairs climbed as well as related software.',
-            ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
-          },
-          category: 'React',
-          tools: ['HTML', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'AJAX', 'NodeJs'],
-          screenshots: {
-            img1: {
-              url: 'assets/images/single-portfolio/smart.jpeg',
-              caption: { en: 'SmartWach Features', ar: 'تسمية توضيحية 5' }
-            },
-            img2: {
-              url: 'assets/images/single-portfolio/smart1.jpeg',
-              caption: { en: 'Health monitor', ar: 'تسمية توضيحية 4' }
-            },
-            img3: {
-              url: 'assets/images/single-portfolio/smart2.jpeg',
-              caption: { en: 'Track activities', ar: 'تسمية توضيحية 3' }
-            },
-            img4: {
-              url: 'assets/images/single-portfolio/smart3.jpeg',
-              caption: { en: 'Visual Data', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/smart4.jpeg',
-              caption: { en: 'Monitor', ar: 'تسمية توضيحية 1' }
-            }
-          }
-        }, {
-          id: 15,
-          url: 'single-portfolio.html?id=15',
           imgUrl: 'assets/images/portfolio/clickplay.png',
           title: { en: 'Click-play', ar: 'هنا عنوان المشروع 15' },
           date: { en: 'April 2017', ar: 'أبريل 2021' },
@@ -700,8 +666,8 @@ const app = Vue.createApp({
             }
           }
         }, {
-          id: 16,
-          url: 'single-portfolio.html?id=16',
+          id: 15,
+          url: 'single-portfolio.html?id=15',
           imgUrl: 'assets/images/portfolio/class1.jpeg',
           title: { en: 'Next Gen classified', ar: 'هنا عنوان المشروع 16' },
           date: { en: 'April 2015', ar: 'أبريل 2021' },
@@ -734,8 +700,8 @@ const app = Vue.createApp({
             }
           }
         }, {
-          id: 17,
-          url: 'single-portfolio.html?id=17',
+          id: 16,
+          url: 'single-portfolio.html?id=16',
           imgUrl: 'assets/images/portfolio/portfolio-6.png',
           title: { en: 'EasySign Solutions', ar: 'هنا عنوان المشروع 17' },
           date: { en: 'April 2014', ar: 'أبريل 2021' },
@@ -768,8 +734,8 @@ const app = Vue.createApp({
             }
           }
         }, {
-          id: 18,
-          url: 'single-portfolio.html?id=18',
+          id: 17,
+          url: 'single-portfolio.html?id=17',
           imgUrl: 'assets/images/portfolio/slambook.png',
           title: { en: 'Slambook', ar: 'هنا عنوان المشروع 18' },
           date: { en: 'Nov 2015', ar: 'أبريل 2021' },
