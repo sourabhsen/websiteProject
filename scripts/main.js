@@ -528,28 +528,7 @@ const app = Vue.createApp({
           },
           category: 'HTML',
           tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-            },
-            img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-            },
-            img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-            },
-            img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-            }
-          }
+          
         }, {
           id: 11,
           url: 'single-portfolio.html?id=11',
@@ -575,28 +554,7 @@ const app = Vue.createApp({
           },
           category: 'Angular',
           tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
-          screenshots: {
-            img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-            },
-            img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-            },
-            img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-            },
-            img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-            }
-          }
+          
         }, {
           id: 13,
           url: 'single-portfolio.html?id=13',
@@ -609,28 +567,7 @@ const app = Vue.createApp({
           },
           category: 'Angular',
           tools: ['HTML',  'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-            },
-            img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-            },
-            img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-            },
-            img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-            }
-          }
+          
         }, {
           id: 14,
           url: 'single-portfolio.html?id=14',
@@ -711,28 +648,7 @@ const app = Vue.createApp({
           },
           category: 'Angular',
           tools: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
-          screenshots: {
-            img1: {
-              url: 'assets/images/single-portfolio/single-portfolio-5.png',
-              caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
-            },
-            img2: {
-              url: 'assets/images/single-portfolio/single-portfolio-4.png',
-              caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
-            },
-            img3: {
-              url: 'assets/images/single-portfolio/single-portfolio-3.png',
-              caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
-            },
-            img4: {
-              url: 'assets/images/single-portfolio/single-portfolio-2.png',
-              caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
-            },
-            img5: {
-              url: 'assets/images/single-portfolio/single-portfolio-1.png',
-              caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
-            }
-          }
+          
         }, {
           id: 17,
           url: 'single-portfolio.html?id=17',
