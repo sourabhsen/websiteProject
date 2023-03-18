@@ -733,7 +733,7 @@ const app = Vue.createApp({
           quoteAuthor: { en: 'Cameron Leaslie', ar: 'عباس العنابي' },
           jobTitle: { en: 'Head of UX at AARP', ar: 'مدير مبيعات' }
         }, {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQERA-lDpM_TmQ/profile-displayphoto-shrink_100_100/0/1629722845829?e=1642636800&v=beta&t=qNBDbdAcdgQ219dFTF8YYjaeRXyjlysRblS-sIrvebg',
+          imgUrl: 'assets/images/testimonials/ceo.png',
           quoteContent: {
             en: 'sourabh is one of the best UI developers i have come across. He can do a lot with his never say die attitude. I wish him good luck for his future endeavors.',
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -742,7 +742,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Founder at onlineone.in', ar: 'آرت دايركتور' }
         }, 
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4D03AQFrXZiO89Pk9g/profile-displayphoto-shrink_100_100/0/1633181446022?e=1642636800&v=beta&t=x_CiffQYbye-sSt5Qc0IY24zFCYYK-_dfbfnYx405xI',
+          imgUrl: 'assets/images/testimonials/cameron.png',
           quoteContent: {
             en: `Sourabh is one of the most thoughtful, knowledgeable and professional people in UI Development. He is got a passion for the design, development and testing of enterprise software, his understanding of the issues, his original ideas and his thorough execution. I have enjoyed all of our encounters and recommend him very highly`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -751,7 +751,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Software Consultant at Saudi Aramco', ar: 'آرت دايركتور' }
         }, 
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C5603AQHclxqmfjVZRw/profile-displayphoto-shrink_100_100/0/1595912047429?e=1642636800&v=beta&t=MnMZa4TBcK7K05IvKCci5d4H--0JdXQU7aXoCk2kT0o',
+          imgUrl: 'assets/images/testimonials/ramana.jpeg',
           quoteContent: {
             en: `Sourabh is one cool guy to work with. His thought process is very constructive and impressive.`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -760,7 +760,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Front End Lead', ar: 'آرت دايركتور' }
         }, 
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQGi9jvcR2IDrQ/profile-displayphoto-shrink_400_400/0/1551105299877?e=1642636800&v=beta&t=mD-wuH99VyuU1qvDVfBJnDgBM7Qw3uRRusJaygjLPk0',
+          imgUrl: 'assets/images/testimonials/ramakrishna.jpeg',
           quoteContent: {
             en: `I have been working with Sourabh for more than 2 years. He is very responsible person in his assignments and takes initiative in all his or team works. He has really a very good technical skills than his experience. He is self motivated, hard worker and decent sometimes.`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -770,7 +770,7 @@ const app = Vue.createApp({
         }, 
        
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C4E03AQExKkDK6XyTRg/profile-displayphoto-shrink_100_100/0/1579025361462?e=1642636800&v=beta&t=GVlxn2VGeuuJO61rBgR-aW93thVUGATe-x5hYjZO71s',
+          imgUrl: 'assets/images/testimonials/shyam.jpeg',
           quoteContent: {
             en: `Sourabh is very professional, always delivers high quality results, and is always there to help.He is very responsible person in his assignments and takes initiative in all his or team works. He has really a very good technical skills than his experience.`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -779,7 +779,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Javascript Enthusiast, Loves Web', ar: 'آرت دايركتور' }
         }, 
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C5103AQFxRMytVnVsPg/profile-displayphoto-shrink_400_400/0/1517549666601?e=1642636800&v=beta&t=EH9gWD1t9B8FreHGe2mrGipcVlCwcCIoh4-tedDxgo4',
+          imgUrl: 'assets/images/testimonials/agni.jpeg',
           quoteContent: {
             en: `Sourabh is very professional, always delivers high quality results, and is always there to help. Look forward to working with him in other projects.`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
@@ -803,7 +803,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'CTO at TA Digital', ar: 'آرت دايركتور' }
         }, 
         {
-          imgUrl: 'https://media-exp1.licdn.com/dms/image/C5603AQHn0mMmaSvEJQ/profile-displayphoto-shrink_400_400/0/1610409561715?e=1642636800&v=beta&t=gn5225VS8QgCWPL610alsnbC1QNPUVLT9aSfSmPy1Sg',
+          imgUrl: 'assets/images/testimonials/maheswar.jpeg',
           quoteContent: {
             en: `I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!`,
             ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
